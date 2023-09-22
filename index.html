@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<!-- Mirrored from slimhamdi.net/monji/demos/light-skinswitcher-sound.html by HTTrack Website Copier/3.x [XR&CO'2017], Tue, 19 Sep 2023 09:39:09 GMT -->
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="preconnect" href="../../../external.html?link=https://fonts.googleapis.com/">
+      <link rel="preconnect" href="../../../external.html?link=https://fonts.gstatic.com/" crossorigin>
+      <link href="../../../external.html?link=https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+      <title>Personal Portfolio HTML Template</title>
+      <!-- Main CSS File -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!-- Main Color File -->
+      <link rel="stylesheet" type="text/css" href="css/skins/green.css">
+      <!-- Color Switcher - Only Demo -->
+      <link rel="stylesheet" type="text/css" href="css/colorswitcher.css">
+   </head>
+   <body>
+       <!-- Color Switcher Starts / Only Demo -->
+       <div id="switcher" class="switcher">
+         <p>Color Switcher</span>
+         <div>
+            <span id="yellow"></span>
+            <span id="red"></span>
+            <span id="green"></span>
+            <span id="green2"></span>
+            <span id="orange"></span>
+            <span id="blue"></span>
+            <span id="blue2"></span>
+            <span id="pink"></span>
+            <span id="goldenrod"></span>
+            <span id="pink2"></span>
+         </div>
+         <span id="toggle-switcher">
+            <i class="icon-cog"></i>
+         </span>
+       </div>
+       <!-- Color Switcher Ends / Only Demo -->
+       <!-- Sound Dialog Modal Starts -->
+       <!-- <div id="soundmodal" class="soundmodal">
+         <div class="soundmodal-content">
+            <img class="sound-icon" src="img/volume.png" alt="">
+            <p>Allow Sound Effects ?</p>
+            <div class="buttons">
+               <span id="no" class="no">No</span>
+               <span id="yes" class="yes">Yes</span>
+            </div>
+         </div>
+       </div> -->
+      <!-- Sound Dialog Modal Ends -->
+      <!-- Loader Starts -->
+      <div class="loader-wrapper">
+         <div class="loader">
+         </div>
+         <div class="loader-section section-left"></div>
+         <div class="loader-section section-right"></div>
+         </div>
+      <!-- Loader Ends -->
+      <!-- Home Section Starts -->
+      <div class="main-section home active">
+         <!-- Background shape Starts -->
+         <img src="img/shape3.png" alt="">
+         <!-- Background shape Ends -->
+         <!-- Main Home Content Starts -->
+         <div class="home-content">
+            <div>
+               <span class="hello">Hello!</span>
+               <h1>I am <span>Damilola</span>
+               </h1>
+               <p>Experienced Data Scientist & Software Engineer with 6+ years in both fields. 
+                  Expert in machine learning, stats, Python, R, SQL, and MERN stack. Skilled in bridging data science & software engineering for effective decision-making. 
+                  Ready to contribute expertise to versatile roles.</p>
+            </div>
+         </div>
+         <!-- Main Home Content Ends -->
+         <!-- Call To Actions Starts -->
+         <div class="call-to-actions">
+            <!-- Open Portfolio Section Starts -->
+            <button id="open-portfolio" class="btn-primary">
+               <span class="letter-wrap">My Portfolio</span>
+            </button>
+            <!-- Open Portfolio Section Ends -->
+            <!-- Open About Section Starts -->
+            <a href="#" id="open-about" class="btn-secondary">
+               <div>
+                  <span> About Me </span>
+                  <span> About Me </span>
+               </div>
+            </a>
+            <!-- Open About Section Ends -->
+         </div>
+         <!-- Call To Actions Ends -->
+         <!-- Contacts Starts -->
+         <div class="contacts">
+            <ul>
+               <li>+234 80 6658 6882</li>
+               <li>oquadri2014@gmail.com</li>
+               <li>Lagos, Nigeria</li>
+            </ul>
+            <!-- Social Media Profiles Starts -->
+            <div class="social">
+              <ul>
+                 <li>
+                    <a href="https://x.com/techscha?s=11" target="_blank">
+                    <i class="icon-twitter"></i>
+                    </a>
+                 </li>
+                 <li>
+                  <a href="https://www.linkedin.com/in/olarewaju-damilola-quadri-9456b7185/" target="_blank">
+                  <i class="icon-linkedin"></i>
+                  </a>
+               </li>
+                 <li>
+                    <a href="https://github.com/Damilola-design" target="_blank">
+                    <i class="icon-github"></i>
+                    </a>
+                 </li>
+                 <li>
+                    <a href="#" target="_blank">
+                    <i class="icon-instagram"></i>
+                    </a>
+                 </li>
+              </ul>
+           </div>
+           <!-- Social Media Profiles Ends -->
+         </div>
+         <!-- Contacts Ends -->
+         <!-- Skin Switcher Starts -->
+         <div class="skin">
+            <span>Light</span>
+            <div>
+               <input type="checkbox" class="checkbox" id="checkbox">
+               <label for="checkbox" class="checkbox-label">
+                  <svg width="14" class="light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                     <path d="M361.5 1.2c5 2.1 8.6 6.6 9.6 11.9L391 121l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L446.9 256l62.3 90.3c3.1 4.5 3.7 10.2 1.6 15.2s-6.6 8.6-11.9 9.6L391 391 371.1 498.9c-1 5.3-4.6 9.8-9.6 11.9s-10.7 1.5-15.2-1.6L256 446.9l-90.3 62.3c-4.5 3.1-10.2 3.7-15.2 1.6s-8.6-6.6-9.6-11.9L121 391 13.1 371.1c-5.3-1-9.8-4.6-11.9-9.6s-1.5-10.7 1.6-15.2L65.1 256 2.8 165.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L121 121 140.9 13.1c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L256 65.1 346.3 2.8c4.5-3.1 10.2-3.7 15.2-1.6zM160 256a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z"/>
+                  </svg>
+                  <svg width="13" class="dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                     <path d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"/>
+                  </svg>
+                  <span class="ball"></span>
+               </label>
+            </div>
+            <span>Dark</span>
+         </div>
+         <!-- Skin Switcher Ends -->
+         <!-- Copyright Starts -->
+         <div class="leftbottom">
+           <span>&copy; 2023 Damilola</span>
+           <a href="Certificate.html">
+             Certifications
+           </a>
+         </div>
+         <!-- Copyright Ends -->
+      </div>
+      <!-- Home Section Ends -->
+      <!-- Portfolio Section Starts -->
+      <div class="main-section portfolio-grid">
+         <!-- Back Home Starts -->
+         <div class="back-home" id="back-home">
+            <div class="squares">
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+            </div>
+         </div>
+         <!-- Back Home Ends -->
+         <!-- Portfolio Grid Starts -->
+         <div class="grid-container">
+            <!-- Portfolio Heading Starts -->
+            <div class="heading">
+               <h2>Portfolio</h2>
+               <p>A few recent Data science and software development projects</p>
+            </div>
+            <!-- Portfolio Heading Ends -->
+            <!-- Portfolio Items Starts -->
+            <ul class="grid">
+               <!-- Portfolio Single Item Starts -->
+               <li class="item" onclick="openItem(this)">
+                  <img src="img/projects/HAR.jpeg" alt="">
+                  <div class="title">
+                     <span>Human Activity Recognition</span>
+                  </div>
+               </li>
+               <!-- Portfolio Single Item Ends -->
+               <!-- Portfolio Single Item Starts -->
+               <li class="item" onclick="openItem(this)">
+                  <img src="img/projects/MPS.jpeg" alt="">
+                  <div class="title">
+                     <span>Medical Predictive system</span>
+                  </div>
+               </li>
+               <!-- Portfolio Single Item Ends -->
+               <!-- Portfolio Single Item Starts -->
+               <li class="item" onclick="openItem(this)">
+                  <img src="img/projects/FLD.jpeg" alt="">
+                  <div class="title">
+                     <span>Face Liveliness Detection</span>
+                  </div>
+               </li>
+               <!-- Portfolio Single Item Ends -->
+               <!-- Portfolio Single Item Starts -->
+               <li class="item" onclick="openItem(this)">
+                  <img src="img/projects/UDA.jpeg" alt="">
+                  <div class="title">
+                     <span>Uber Analysis</span>
+                  </div>
+               </li>
+               <!-- Portfolio Single Item Ends -->
+               <!-- Portfolio Single Item Starts -->
+               <li class="item" onclick="openItem(this)">
+                  <img src="img/projects/HDP.jpeg" alt="">
+                  <div class="title">
+                     <span>Heart Disease Prediction</span>
+                  </div>
+               </li>
+               <!-- Portfolio Single Item Ends -->
+               <!-- Portfolio Single Item Starts -->
+               <li class="item" onclick="openItem(this)">
+                  <img src="img/projects/HAD.jpeg" alt="">
+                  <div class="title">
+                     <span>Human Age Detection CNN</span>
+                  </div>
+               </li>
+               <!-- Portfolio Single Item Ends -->
+               <!-- Portfolio Single Item Starts -->
+               <li class="item" onclick="openItem(this)">
+                  <img src="img/projects/LP.png" alt="">
+                  <div class="title">
+                     <span>Loan Eligibility Prediction</span>
+                  </div>
+               </li>
+               <!-- Portfolio Single Item Ends -->
+               <!-- Portfolio Single Item Starts -->
+               <li class="item" onclick="openItem(this)">
+                  <img src="img/projects/MRS.jpeg" alt="">
+                  <div class="title">
+                     <span>Movie Review Sentiment Analysis</span>
+                  </div>
+               </li>
+               <!-- Portfolio Single Item Ends -->
+            </ul>
+            <!-- Portfolio Items Ends -->
+         </div>
+         <!-- Portfolio Grid Ends -->
+         <!-- Skin Switcher Starts -->
+         <div class="skin">
+            <span>Light</span>
+            <div>
+               <input type="checkbox" class="checkbox" id="checkbox2">
+               <label for="checkbox2" class="checkbox-label">
+                  <svg width="14" class="light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                     <path fill="#fb6977" d="M361.5 1.2c5 2.1 8.6 6.6 9.6 11.9L391 121l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L446.9 256l62.3 90.3c3.1 4.5 3.7 10.2 1.6 15.2s-6.6 8.6-11.9 9.6L391 391 371.1 498.9c-1 5.3-4.6 9.8-9.6 11.9s-10.7 1.5-15.2-1.6L256 446.9l-90.3 62.3c-4.5 3.1-10.2 3.7-15.2 1.6s-8.6-6.6-9.6-11.9L121 391 13.1 371.1c-5.3-1-9.8-4.6-11.9-9.6s-1.5-10.7 1.6-15.2L65.1 256 2.8 165.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L121 121 140.9 13.1c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L256 65.1 346.3 2.8c4.5-3.1 10.2-3.7 15.2-1.6zM160 256a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z"/>
+                  </svg>
+                  <svg width="13" class="dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                     <path d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"/>
+                  </svg>
+                  <span class="ball"></span>
+               </label>
+            </div>
+            <span>Dark</span>
+         </div>
+         <!-- Skin Switcher Ends -->
+      </div>
+      <!-- Portfolio Section Ends -->
+      <!-- Portfolio Items Details Starts -->
+      <div class="portfolio-items">
+         <!-- Single Project Details Starts -->
+         <div class="single-project-item" id="project-1">
+            <!-- Back Portfolio Starts -->
+            <div class="back-to-portfolio" onclick="backToPorfolio()">
+               <div class="squares">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+               </div>
+            </div>
+            <!-- Back Portfolio Ends -->
+            <div>
+               <!-- Portfolio Single Item Details Starts -->
+               <div class="details">
+                  <div class="heading">
+                     <img src="img/projects/HAR.jpeg" alt="">
+                     <div>
+                        <div>
+                           <h2>Human Activity Recognition</h2>
+                           <span>As part of my data science journey, I undertook a challenging and rewarding project focused on Human Activity Recognition (HAR). The goal of this project was to develop a machine learning model capable of accurately recognizing and classifying different human activities based on sensor data.</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content">
+                     <ul>
+                        <li>
+                           <span>Data Collection</span>
+                        </li>
+                        <li>
+                           <span>Data Preprocessing</span>
+                        </li>
+                        <li>
+                           <span>Feature Engineering</span>
+                           <span></span>
+                        </li>
+                        <li>
+                           <span>Model Development</span>
+                           <span></span>
+                        </li>
+                     </ul>
+                     <a href="https://github.com/Damilola-design/HAR" target="_blank" class="btn-secondary">
+                        <div>
+                           <span> Preview </span>
+                           <span> Preview </span>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <!-- Portfolio Single Item Details Ends -->
+               <!-- Portfolio Navigation Starts -->
+               <div class="arrows">
+                  <div>
+                     <div class="arrow up top-project" onclick="TopProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="arrow down bottom-project" onclick="BottomProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Portfolio Navigation Ends -->
+            </div>
+         </div>
+         <!-- Single Project Details Ends -->
+         <!-- Single Project Details Starts -->
+         <div class="single-project-item" id="project-2">
+            <!-- Back Portfolio Starts -->
+            <div class="back-to-portfolio" onclick="backToPorfolio()">
+               <div class="squares">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+               </div>
+            </div>
+            <!-- Back Portfolio Ends -->
+            <div>
+               <!-- Portfolio Single Item Details Starts -->
+               <div class="details">
+                  <div class="heading">
+                     <img src="img/projects/MPS.jpeg" alt="">
+                     <div>
+                        <div>
+                           <h2>Medical Predictive system</h2>
+                           <span>One of the most critical applications of data science and machine learning is in the healthcare sector. In my portfolio, I am proud to present a project that showcases my expertise in developing a Medical Predictive System designed to assist medical professionals in making informed decisions and improving patient outcomes.</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content">
+                     <ul>
+                        <li>
+                           <span>Data Collection</span>
+                          
+                        </li>
+                        <li>
+                           <span>Data Preprocessing</span>
+                           
+                        </li>
+                        <li>
+                           <span> Feature Engineering:</span>
+                          
+                        </li>
+                        <li>
+                           <span>Predictive Models</span>
+                          
+                        </li>
+                     </ul>
+                     <a href="https://github.com/Damilola-design/MediacalAIFrontend" target="_blank" class="btn-secondary">
+                        <div>
+                           <span> Preview </span>
+                           <span> Preview </span>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <!-- Portfolio Single Item Details Ends -->
+               <!-- Portfolio Navigation Starts -->
+               <div class="arrows">
+                  <div>
+                     <div class="arrow up top-project" onclick="TopProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="arrow down bottom-project" onclick="BottomProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Portfolio Navigation Ends -->
+            </div>
+         </div>
+         <!-- Single Project Details Ends -->
+         <!-- Single Project Details Starts -->
+         <div class="single-project-item" id="project-3">
+            <!-- Back Portfolio Starts -->
+            <div class="back-to-portfolio" onclick="backToPorfolio()">
+               <div class="squares">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+               </div>
+            </div>
+            <!-- Back Portfolio Ends -->
+            <div>
+               <!-- Portfolio Single Item Details Starts -->
+               <div class="details">
+                  <div class="heading">
+                     <img src="img/projects/FLD.jpeg" alt="">
+                     <div>
+                        <div>
+                           <h2>Face Liveliness Detection</h2>
+                           <span>Face liveliness detection is a crucial technology in the field of computer vision and security. It involves developing a system that can accurately differentiate between a live human face and a static image or video recording. In my portfolio, I am excited to showcase my work on a Face Liveliness Detection project that demonstrates my expertise in this area.</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content">
+                     <ul>
+                        <li>
+                           <span>Dataset Collection</span>
+                          
+                        </li>
+                        <li>
+                           <span>Data Preprocessing</span>
+                           
+                        </li>
+                        <li>
+                           <span>Feature Extraction</span>
+                           
+                        </li>
+                        <li>
+                           <span> Real-Time Detection </span>
+                           
+                        </li>
+                     </ul>
+                     <a href="https://github.com/Damilola-design/FaceLivelinesDetectionApp/blob/main/Screenshot%202023-02-01%20at%2008.23.45.png" target="_blank" class="btn-secondary">
+                        <div>
+                           <span> Preview </span>
+                           <span> Preview </span>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <!-- Portfolio Single Item Details Ends -->
+               <!-- Portfolio Navigation Starts -->
+               <div class="arrows">
+                  <div>
+                     <div class="arrow up top-project" onclick="TopProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="arrow down bottom-project" onclick="BottomProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Portfolio Navigation Ends -->
+            </div>
+         </div>
+         <!-- Single Project Details Ends -->
+         <!-- Single Project Details Starts -->
+         <div class="single-project-item" id="project-4">
+            <!-- Back Portfolio Starts -->
+            <div class="back-to-portfolio" onclick="backToPorfolio()">
+               <div class="squares">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+               </div>
+            </div>
+            <!-- Back Portfolio Ends -->
+            <div>
+               <!-- Portfolio Single Item Details Starts -->
+               <div class="details">
+                  <div class="heading">
+                     <img src="img/projects/UDA.jpeg" alt="">
+                     <div>
+                        <div>
+                           <h2>Uber Analysis</h2>
+                           <span>I worked on a comprehensive dataset containing ride-related information, including pick-up and drop-off locations, ride durations, user ratings, and more. This dataset was sourced from publicly available data and anonymized for analysis.</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content">
+                     <ul>
+                        <li>
+                           <span>Data Cleaning and Preparation</span>
+                         
+                        </li>
+                        <li>
+                           <span>Exploratory Data Analysis (EDA)</span>
+                     
+                        </li>
+                        <li>
+                           <span> User Behavior Analysis</span>
+                           
+                        </li>
+                        <li>
+                           <span>Operational Efficiency </span>
+                           
+                        </li>
+                     </ul>
+                     <a href="https://github.com/Damilola-design/UberAnalysis/blob/main/uwaknew.ipynb" target="_blank" class="btn-secondary">
+                        <div>
+                           <span> Preview </span>
+                           <span> Preview </span>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <!-- Portfolio Single Item Details Ends -->
+               <!-- Portfolio Navigation Starts -->
+               <div class="arrows">
+                  <div>
+                     <div class="arrow up top-project" onclick="TopProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="arrow down bottom-project" onclick="BottomProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Portfolio Navigation Ends -->
+            </div>
+         </div>
+         <!-- Single Project Details Ends -->
+         <!-- Single Project Details Starts -->
+         <div class="single-project-item" id="project-5">
+            <!-- Back Portfolio Starts -->
+            <div class="back-to-portfolio" onclick="backToPorfolio()">
+               <div class="squares">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+               </div>
+            </div>
+            <!-- Back Portfolio Ends -->
+            <div>
+               <!-- Portfolio Single Item Details Starts -->
+               <div class="details">
+                  <div class="heading">
+                     <img src="img/projects/HDP.jpeg" alt="">
+                     <div>
+                        <div>
+                           <h2>Heart Disease Prediction</h2>
+                           <span>Predicting the likelihood of heart disease is a crucial application of data science and machine learning in healthcare. In my portfolio, I am delighted to present a Heart Disease Prediction project that showcases my expertise in developing predictive models for medical diagnosis.</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content">
+                     <ul>
+                        <li>
+                           <span> Dataset Collection</span>
+                          
+                        </li>
+                        <li>
+                           <span>Data Preprocessing</span>
+                           
+                        </li>
+                        <li>
+                           <span>Exploratory Data Analysis (EDA)</span>
+                        </li>
+                        <li>
+                           <span>Deployment</span>
+                        </li>
+                     </ul>
+                     <a href="https://github.com/Damilola-design/HeartPredictionModel" target="_blank" class="btn-secondary">
+                        <div>
+                           <span> Preview </span>
+                           <span> Preview </span>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <!-- Portfolio Single Item Details Ends -->
+               <!-- Portfolio Navigation Starts -->
+               <div class="arrows">
+                  <div>
+                     <div class="arrow up top-project" onclick="TopProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="arrow down bottom-project" onclick="BottomProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Portfolio Navigation Ends -->
+            </div>
+         </div>
+         <!-- Single Project Details Ends -->
+         <!-- Single Project Details Starts -->
+         <div class="single-project-item" id="project-6">
+            <!-- Back Portfolio Starts -->
+            <div class="back-to-portfolio" onclick="backToPorfolio()">
+               <div class="squares">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+               </div>
+            </div>
+            <!-- Back Portfolio Ends -->
+            <div>
+               <!-- Portfolio Single Item Details Starts -->
+               <div class="details">
+                  <div class="heading">
+                     <img src="img/projects/HAD.jpeg" alt="">
+                     <div>
+                        <div>
+                           <h2>Human Age Detection CNN</h2>
+                           <span>Age detection from images is a fascinating application of computer vision and deep learning. In my portfolio, I am proud to present a Human Age Detection Convolutional Neural Network (CNN) project that demonstrates my proficiency in deep learning and image analysis.</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content">
+                     <ul>
+                        <li>
+                           <span>Dataset Acquisition</span>
+                           
+                        </li>
+                        <li>
+                           <span>Data Preprocessing</span>
+                           
+                        </li>
+                        <li>
+                           <span>Convolutional Neural Network (CNN)</span>
+                          
+                        </li>
+                        <li>
+                           <span>Model Training </span>
+                           
+                        </li>
+                     </ul>
+                     <a href="https://github.com/Damilola-design/HumanAgeDetection/blob/main/face.ipynb" target="_blank" class="btn-secondary">
+                        <div>
+                           <span> Preview </span>
+                           <span> Preview </span>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <!-- Portfolio Single Item Details Ends -->
+               <!-- Portfolio Navigation Starts -->
+               <div class="arrows">
+                  <div>
+                     <div class="arrow up top-project" onclick="TopProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="arrow down bottom-project" onclick="BottomProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Portfolio Navigation Ends -->
+            </div>
+         </div>
+         <!-- Single Project Details Ends -->
+         <!-- Single Project Details Starts -->
+         <div class="single-project-item" id="project-7">
+            <!-- Back Portfolio Starts -->
+            <div class="back-to-portfolio" onclick="backToPorfolio()">
+               <div class="squares">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+               </div>
+            </div>
+            <!-- Back Portfolio Ends -->
+            <div>
+               <!-- Portfolio Single Item Details Starts -->
+               <div class="details">
+                  <div class="heading">
+                     <img src="img/projects/LP.png" alt="">
+                     <div>
+                        <div>
+                           <h2>Loan Eligibility Prediction</h2>
+                           <span>Predicting loan eligibility is a critical task in the banking and financial industry. In my portfolio, I am pleased to present a Loan Eligibility Prediction project that demonstrates my expertise in machine learning and predictive analytics.</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content">
+                     <ul>
+                        <li>
+                           <span>Dataset Collection</span>
+                           
+                        </li>
+                        <li>
+                           <span>Data Preprocessing</span>
+                           
+                        </li>
+                        <li>
+                           <span>Exploratory Data Analysis (EDA)</span>
+                           
+                        </li>
+                        <li>
+                           <span>Machine Learning Models</span>
+                           
+                        </li>
+                     </ul>
+                     <a href="https://github.com/Damilola-design/LoanEligiilityPrediction/blob/main/analysisLoan.ipynb" target="_blank" class="btn-secondary">
+                        <div>
+                           <span> Preview </span>
+                           <span> Preview </span>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <!-- Portfolio Single Item Details Ends -->
+               <!-- Portfolio Navigation Starts -->
+               <div class="arrows">
+                  <div>
+                     <div class="arrow up top-project" onclick="TopProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="arrow down bottom-project" onclick="BottomProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Portfolio Navigation Ends -->
+            </div>
+         </div>
+         <!-- Single Project Details Ends -->
+         <!-- Single Project Details Starts -->
+         <div class="single-project-item" id="project-8">
+            <!-- Back Portfolio Starts -->
+            <div class="back-to-portfolio" onclick="backToPorfolio()">
+               <div class="squares">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+               </div>
+            </div>
+            <!-- Back Portfolio Ends -->
+            <div>
+               <!-- Portfolio Single Item Details Starts -->
+               <div class="details">
+                  <div class="heading">
+                     <img src="img/projects//MRS.jpeg" alt="">
+                     <div>
+                        <div>
+                           <h2>Movie Review Sentiment Analysis</h2>
+                           <span>Sentiment analysis of movie reviews is a popular natural language processing (NLP) task that involves determining the sentiment or opinion expressed in a text, such as a movie review. In my portfolio, I am excited to showcase my work on a Movie Review Sentiment Analysis project that demonstrates my proficiency in NLP and text analysis.</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content">
+                     <ul>
+                        <li>
+                           <span>Dataset Collection</span>
+                          
+                        </li>
+                        <li>
+                           <span>Data Preprocessing</span>
+                           
+                        </li>
+                        <li>
+                           <span>Text Vectorization</span>
+                           
+                        </li>
+                        <li>
+                           <span>Machine Learning Models</span>
+                          
+                        </li>
+                     </ul>
+                     <a href="https://github.com/Damilola-design/MovieReview/blob/main/SentimentAnalysisNeuralLanguage.ipynb" target="_blank" class="btn-secondary">
+                        <div>
+                           <span> Preview </span>
+                           <span> Preview </span>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <!-- Portfolio Single Item Details Ends -->
+               <!-- Portfolio Navigation Starts -->
+               <div class="arrows">
+                  <div>
+                     <div class="arrow up top-project" onclick="TopProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="arrow down bottom-project" onclick="BottomProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Portfolio Navigation Ends -->
+            </div>
+         </div>
+         <!-- Single Project Details Ends -->
+      </div>
+      <!-- Portfolio Items Details Ends -->
+      <!-- About Section Starts -->
+      <div id="about" class="about">
+         <div class="overlay" id="overlay"></div>
+         <div class="content" id="content">
+            <!-- Close About Section Starts -->
+            <div class="close" id="close">
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="30px" height="30px" fill-rule="nonzero">
+                  <g fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-size="none" style="mix-blend-mode: normal">
+                     <g transform="scale(8.53333,8.53333)">
+                        <path d="M7,4c-0.25587,0 -0.51203,0.09747 -0.70703,0.29297l-2,2c-0.391,0.391 -0.391,1.02406 0,1.41406l7.29297,7.29297l-7.29297,7.29297c-0.391,0.391 -0.391,1.02406 0,1.41406l2,2c0.391,0.391 1.02406,0.391 1.41406,0l7.29297,-7.29297l7.29297,7.29297c0.39,0.391 1.02406,0.391 1.41406,0l2,-2c0.391,-0.391 0.391,-1.02406 0,-1.41406l-7.29297,-7.29297l7.29297,-7.29297c0.391,-0.39 0.391,-1.02406 0,-1.41406l-2,-2c-0.391,-0.391 -1.02406,-0.391 -1.41406,0l-7.29297,7.29297l-7.29297,-7.29297c-0.1955,-0.1955 -0.45116,-0.29297 -0.70703,-0.29297z"></path>
+                     </g>
+                  </g>
+               </svg>
+            </div>
+            <!-- Close About Section Ends -->
+            <!-- About Content Starts -->
+            <div class="content-container" id="contentcontainer">
+               <!-- Photo Starts -->
+               <div class="img-container">
+                 <picture>
+                     <source media="(min-width:990px)" srcset="img/main.jpeg">
+                     <img src="img/main.jpeg" alt="mobile picture">
+                  </picture>
+               </div>
+               <!-- Photo Ends -->
+               <!-- Personal Informations Starts -->
+               <div>
+                  <div class="infos-about">
+                     <h3>Olarewaju Damilola Quadri</h3>
+                     <div class="infos-about-inner">
+                        <table class="">
+                           <tr>
+                              <td>Job</td>
+                              <td>Software Engineer | Data Scientist</td>
+                           </tr>
+                           <tr>
+                              <td>Age</td>
+                              <td>25 years</td>
+                           </tr>
+                           <tr>
+                              <td>Nationality</td>
+                              <td>African</td>
+                           </tr>
+                           <tr>
+                              <td>Experience</td>
+                              <td><a class="accent" href="experience.html" >View</a></td>
+                           </tr>
+                        </table>
+                        <table>
+                           <tr>
+                              <td>Freelance</td>
+                              <td>Available</td>
+                           </tr>
+                           <tr>
+                              <td>Langages</td>
+                              <td>English, Yoruba</td>
+                           </tr>
+                           <tr>
+                              <td>Resume</td>
+                              <td><a class="accent" href="Resume.pdf" download="download">Download</a></td>
+                           </tr>
+                           <tr>
+                              <td>Certifications</td>
+                              <td><a class="accent" href="Certificate.html" >View</a></td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="facts">
+                        <div class="box-stats">
+                           <h4>6</h4>
+                           <p>years <span>experience</span>
+                           </p>
+                        </div>
+                        <div class="box-stats">
+                           <h4>210</h4>
+                           <p>completed <span>projects</span>
+                           </p>
+                        </div>
+                        <div class="box-stats">
+                           <h4>102</h4>
+                           <p>Happy <span>customers</span>
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Personal Informations Ends -->
+            </div>
+            <!-- About Content Ends -->
+         </div>
+      </div>
+      <!-- About Section Ends -->
+      <!-- Animated Layers Starts -->
+      <div class="layers active-layer opacity-0">
+         <div></div>
+         <div></div>
+         <div></div>
+         <div></div>
+         <div></div>
+      </div>
+      <div class="layers not-active-layer">
+         <div></div>
+         <div></div>
+         <div></div>
+         <div></div>
+         <div></div>
+      </div>
+      <!-- Animated Layers Ends -->
+      <!-- Template JS File -->
+      <script src="js/custom.js"></script>
+      <!-- Color Switcher JS File / Only Demo -->
+      <script src="js/colorswitcher.js"></script>
+   </body>
+
+<!-- Mirrored from slimhamdi.net/monji/demos/light-skinswitcher-sound.html by HTTrack Website Copier/3.x [XR&CO'2017], Tue, 19 Sep 2023 09:40:37 GMT -->
+</html>
